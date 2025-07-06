@@ -1,4 +1,4 @@
-<p align="center"><img src="containerdesk.svg" height="128" alt=""></p>
+<p align="center"><img src="containerdesk.svg" width="128" height="128" alt=""></p>
 <h1 align="center">containerdesk</h1>
 <p align="center">VNC server, in a Docker container</p>
 
