@@ -18,16 +18,10 @@ machine][attack]. **USE AT YOUR OWN RISK.**
 
 [attack]: https://docs.docker.com/engine/security/#docker-daemon-attack-surface
 
-## Build it
-
-```bash
-docker build . --tag containerdesk
-```
-
 ## Run it
 
 ```bash
-docker run --rm -it -p 5901:5901 containerdesk
+docker run --rm -it -p 5901:5901 ghcr.io/itisrazza/containerdesk:main
 ```
 
 The above will create the container and remove it once it dies. You need `-it`
